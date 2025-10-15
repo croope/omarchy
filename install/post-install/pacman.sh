@@ -5,6 +5,7 @@ sudo cp -f ~/.local/share/omarchy/default/pacman/mirrorlist /etc/pacman.d/mirror
 if lspci -nn | grep -q "106b:180[12]"; then
   cat <<EOF | sudo tee -a /etc/pacman.conf >/dev/null
 
+# Don't need this but need an alternative?
 [arch-mact2]
 Server = https://github.com/NoaHimesaka1873/arch-mact2-mirror/releases/download/release
 SigLevel = Never
