@@ -47,8 +47,7 @@ zram-generator
 # Pi 5 support packages ?
 linux-rpi-16k
 linux-rpi-16k-headers
-linux-rpi
-linux-rpi-headers
+rpi5-eeprom
 raspberrypi-bootloader
 raspberrypi-utils
 firmware-raspberrypi
