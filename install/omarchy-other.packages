@@ -45,6 +45,8 @@ yay-debug
 zram-generator
 
 # Pi 5 support packages ?
+linux-rpi-16k
+linux-rpi-16k-headers
 linux-rpi
 linux-rpi-headers
 raspberrypi-bootloader
